@@ -1,0 +1,31 @@
+@mixin set-mb-property($propertyA,$valueA){
+    #{$propertyA}: #{$valueA};
+    -o-#{$propertyA}:#{$valueA};
+    -moz-#{$propertyA}: #{$valueA};
+    -webkit-#{$propertyA}: #{$valueA};
+}
+
+@mixin set-calc-property($propertyA,$valueH,$valueL){
+    #{$propertyA}: calc(#{$valueH} + #{$valueL});
+    #{$propertyA}: -o-calc(#{$valueH} + #{$valueL});
+    #{$propertyA}: -moz-calc(#{$valueH} + #{$valueL});
+    #{$propertyA}: -webkit-calc(#{$valueH} + #{$valueL});
+}
+
+@mixin set-prop-series($classNameA,$propertyA,$prefixMulA:1,$mbA:0,$startA:0,$endA:0,$stepA:0){
+    @if($classNameA != "" 
+        && $propertyA != ""
+        && $prefixMulA >= 1
+        && $startA < $endA){
+        @for $i from $startA through $endA {
+            .#{$classNameA}-#{ $i * $prefixMulA } {
+                @if($mbA == 0){
+                    #{$propertyA}: #{$i * $stepA};
+                }
+                @else{
+                    @include set-mb-property($propertyA,($i * $stepA));
+                }
+            }
+        }        
+    }   
+}

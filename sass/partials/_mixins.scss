@@ -1,0 +1,8 @@
+@mixin create-grid($classNameA,$baseA,$sizeA){
+    @for $i from 1 through $sizeA{
+        $val: $i * $baseA;
+        .#{$classNameA}-#{$i}{
+            width: #{$val};
+        }
+    }
+}
