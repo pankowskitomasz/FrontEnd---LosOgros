@@ -278,24 +278,29 @@ section {
   background-color: #090302 !important;
 }
 
-/* line 43, ../sass/partials/_modules.scss */
+/* line 44, ../sass/partials/_modules.scss */
+.border-top {
+  border-top: 1px solid #666;
+}
+
+/* line 48, ../sass/partials/_modules.scss */
 .contact-data {
   margin-bottom: 40px;
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 47, ../sass/partials/_modules.scss */
+/* line 52, ../sass/partials/_modules.scss */
 .contact-data form {
   background-color: transparent;
   font-size: 16px;
   opacity: 0.7;
   padding: 10px;
 }
-/* line 52, ../sass/partials/_modules.scss */
+/* line 57, ../sass/partials/_modules.scss */
 .contact-data form .form-control {
   margin-bottom: 15px;
 }
-/* line 55, ../sass/partials/_modules.scss */
+/* line 60, ../sass/partials/_modules.scss */
 .contact-data form input {
   background-color: transparent;
   border: none;
@@ -306,7 +311,7 @@ section {
   color: white;
   letter-spacing: 1px;
 }
-/* line 68, ../sass/partials/_modules.scss */
+/* line 73, ../sass/partials/_modules.scss */
 .contact-data form input[type="submit"], .contact-data form input[type="reset"] {
   background-color: transparent;
   border-bottom: 1px solid silver;
@@ -319,13 +324,13 @@ section {
   margin-bottom: 15px;
   padding: 3px 10px;
 }
-/* line 69, ../sass/partials/_modules.scss */
+/* line 74, ../sass/partials/_modules.scss */
 .contact-data form input[type="submit"]:hover, .contact-data form input[type="reset"]:hover {
   border: 1px solid white;
   color: black;
   background-color: white;
 }
-/* line 85, ../sass/partials/_modules.scss */
+/* line 90, ../sass/partials/_modules.scss */
 .contact-data form textarea {
   background-color: transparent;
   border: none;
@@ -336,64 +341,64 @@ section {
   letter-spacing: 1px;
   resize: none;
 }
-/* line 99, ../sass/partials/_modules.scss */
+/* line 104, ../sass/partials/_modules.scss */
 .contact-data div[class^="col"] {
   height: 300x;
 }
-/* line 100, ../sass/partials/_modules.scss */
+/* line 105, ../sass/partials/_modules.scss */
 .contact-data div[class^="col"]:first-of-type {
   background-color: white;
 }
-/* line 103, ../sass/partials/_modules.scss */
+/* line 108, ../sass/partials/_modules.scss */
 .contact-data div[class^="col"]:nth-of-type(2) {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 114, ../sass/partials/_modules.scss */
+/* line 119, ../sass/partials/_modules.scss */
 .d-flex {
-  display: flex;
+  display: flex !important;
 }
 
-/* line 118, ../sass/partials/_modules.scss */
+/* line 123, ../sass/partials/_modules.scss */
 .description {
   font-size: 16px;
   line-height: 1.2em;
   min-height: 12em;
 }
 
-/* line 124, ../sass/partials/_modules.scss */
+/* line 129, ../sass/partials/_modules.scss */
 .float-left {
   float: left !important;
 }
-/* line 127, ../sass/partials/_modules.scss */
+/* line 132, ../sass/partials/_modules.scss */
 .float-none {
   float: none !important;
 }
-/* line 130, ../sass/partials/_modules.scss */
+/* line 135, ../sass/partials/_modules.scss */
 .float-right {
   float: right !important;
 }
 
-/* line 134, ../sass/partials/_modules.scss */
+/* line 139, ../sass/partials/_modules.scss */
 .form-control {
   width: 100%;
 }
 
-/* line 138, ../sass/partials/_modules.scss */
+/* line 143, ../sass/partials/_modules.scss */
 .font-f1 {
   font-family: "Finger Paint";
 }
-/* line 141, ../sass/partials/_modules.scss */
+/* line 146, ../sass/partials/_modules.scss */
 .font-f2 {
   font-family: "Finger Paint";
 }
-/* line 144, ../sass/partials/_modules.scss */
+/* line 149, ../sass/partials/_modules.scss */
 .font-f3 {
   font-family: NexaRustBlack;
 }
 
-/* line 150, ../sass/partials/_modules.scss */
+/* line 155, ../sass/partials/_modules.scss */
 .idx-bg-1 {
   background-attachment: scroll;
   background-image: url(../img/idx-bg-1.jpg);
@@ -402,7 +407,7 @@ section {
   background-size: cover;
 }
 
-/* line 155, ../sass/partials/_modules.scss */
+/* line 160, ../sass/partials/_modules.scss */
 .icon-list a {
   color: #fff !important;
   font-size: 30px;
@@ -410,47 +415,47 @@ section {
   margin-right: 10px;
   text-decoration: none;
 }
-/* line 156, ../sass/partials/_modules.scss */
+/* line 161, ../sass/partials/_modules.scss */
 .icon-list a:hover {
   color: #a6a6a6 !important;
 }
 
-/* line 167, ../sass/partials/_modules.scss */
+/* line 172, ../sass/partials/_modules.scss */
 .img-resp {
   height: auto;
   width: 100%;
 }
 
-/* line 172, ../sass/partials/_modules.scss */
+/* line 177, ../sass/partials/_modules.scss */
 .list-inline {
   padding: 0px;
 }
-/* line 173, ../sass/partials/_modules.scss */
+/* line 178, ../sass/partials/_modules.scss */
 .list-inline > li {
   display: inline;
 }
-/* line 178, ../sass/partials/_modules.scss */
+/* line 183, ../sass/partials/_modules.scss */
 .list-unstyled {
   list-style-type: none;
   padding: 0px;
 }
 
-/* line 184, ../sass/partials/_modules.scss */
+/* line 189, ../sass/partials/_modules.scss */
 .mx-auto {
   margin-left: auto !important;
   margin-right: auto !important;
 }
-/* line 188, ../sass/partials/_modules.scss */
+/* line 193, ../sass/partials/_modules.scss */
 .my-auto {
   margin-bottom: auto !important;
   margin-top: auto !important;
 }
 
-/* line 193, ../sass/partials/_modules.scss */
+/* line 198, ../sass/partials/_modules.scss */
 .menu {
   display: inline-block;
 }
-/* line 194, ../sass/partials/_modules.scss */
+/* line 199, ../sass/partials/_modules.scss */
 .menu-button {
   background-color: transparent !important;
   border: 1px solid #fff;
@@ -458,27 +463,27 @@ section {
   margin: 3px;
   padding: 3px;
 }
-/* line 195, ../sass/partials/_modules.scss */
+/* line 200, ../sass/partials/_modules.scss */
 .menu-button:active {
   opacity: 0.3 !important;
 }
-/* line 198, ../sass/partials/_modules.scss */
+/* line 203, ../sass/partials/_modules.scss */
 .menu-button:focus {
   box-shadow: none;
   outline: none;
 }
-/* line 202, ../sass/partials/_modules.scss */
+/* line 207, ../sass/partials/_modules.scss */
 .menu-button:hover {
   cursor: pointer;
   opacity: 0.7;
 }
-/* line 214, ../sass/partials/_modules.scss */
+/* line 219, ../sass/partials/_modules.scss */
 .menu-content > li {
   display: inline-block;
   font-family: "Anton", sans-serif;
   letter-spacing: 1px;
 }
-/* line 215, ../sass/partials/_modules.scss */
+/* line 220, ../sass/partials/_modules.scss */
 .menu-content > li a {
   color: #fff;
   font-size: 16px;
@@ -486,45 +491,45 @@ section {
   padding: 10px 12px;
   text-decoration: none !important;
 }
-/* line 216, ../sass/partials/_modules.scss */
+/* line 221, ../sass/partials/_modules.scss */
 .menu-content > li a:hover {
   color: #999999;
 }
-/* line 230, ../sass/partials/_modules.scss */
+/* line 235, ../sass/partials/_modules.scss */
 .menu-full {
   display: inline-block;
 }
-/* line 234, ../sass/partials/_modules.scss */
+/* line 239, ../sass/partials/_modules.scss */
 .menu-min {
   display: none;
 }
-/* line 237, ../sass/partials/_modules.scss */
+/* line 242, ../sass/partials/_modules.scss */
 .menu-right {
   float: right;
 }
 
-/* line 243, ../sass/partials/_modules.scss */
+/* line 248, ../sass/partials/_modules.scss */
 .navbar {
   height: 60px;
   position: fixed;
 }
-/* line 247, ../sass/partials/_modules.scss */
+/* line 252, ../sass/partials/_modules.scss */
 .nav-logo {
   display: block;
   float: left;
   padding: 3px;
 }
-/* line 248, ../sass/partials/_modules.scss */
+/* line 253, ../sass/partials/_modules.scss */
 .nav-logo > img {
   height: 50px;
   width: 110px;
 }
 
-/* line 257, ../sass/partials/_modules.scss */
+/* line 262, ../sass/partials/_modules.scss */
 .row {
   display: table;
 }
-/* line 259, ../sass/partials/_modules.scss */
+/* line 264, ../sass/partials/_modules.scss */
 .row > *[class*="-col-"] {
   box-sizing: border-box;
   display: block;
@@ -532,7 +537,7 @@ section {
   position: relative;
 }
 
-/* line 267, ../sass/partials/_modules.scss */
+/* line 272, ../sass/partials/_modules.scss */
 .section-spacer {
   background-attachment: fixed;
   background-image: url(../img/spacer-bg.jpg);
@@ -543,38 +548,38 @@ section {
   opacity: 0.7;
 }
 
-/* line 272, ../sass/partials/_modules.scss */
+/* line 277, ../sass/partials/_modules.scss */
 .shadow {
   box-shadow: 1px 1px 3px #333;
 }
 
-/* line 277, ../sass/partials/_modules.scss */
+/* line 282, ../sass/partials/_modules.scss */
 .switcher-nav .switcher-nav-item {
   cursor: pointer;
   opacity: 0.5;
 }
-/* line 278, ../sass/partials/_modules.scss */
+/* line 283, ../sass/partials/_modules.scss */
 .switcher-nav .switcher-nav-item:hover {
   opacity: 1;
 }
-/* line 286, ../sass/partials/_modules.scss */
+/* line 291, ../sass/partials/_modules.scss */
 .switcher-item {
   display: none;
 }
-/* line 287, ../sass/partials/_modules.scss */
+/* line 292, ../sass/partials/_modules.scss */
 .switcher-item.active {
   display: block !important;
 }
 
-/* line 294, ../sass/partials/_modules.scss */
+/* line 299, ../sass/partials/_modules.scss */
 .text-center {
   text-align: center;
 }
-/* line 297, ../sass/partials/_modules.scss */
+/* line 302, ../sass/partials/_modules.scss */
 .text-uppercase {
   text-transform: uppercase;
 }
-/* line 300, ../sass/partials/_modules.scss */
+/* line 305, ../sass/partials/_modules.scss */
 .text-white {
   color: #fff !important;
 }

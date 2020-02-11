@@ -56,7 +56,10 @@
                 </ul>
             </div>
             <div class="row">
-                <p class="text-center text-uppercase font-f3">Copyright <span class="font-f1">&copy;</span> 2019</p>
+                <small class="mx-auto w-100 border-top border-light text-white my-0">
+                    Website demo, Copyright &copy; 2019-2020 | 
+                    <a href="privacy.html" class="text-white">Privacy</a>
+                </small>
             </div>
         </footer>
         <script src="js/main.min.js"></script>

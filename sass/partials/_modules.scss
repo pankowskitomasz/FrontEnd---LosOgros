@@ -40,6 +40,11 @@
         background-color: $color-black-red !important;
     }
 }
+.border{
+    &-top{
+        border-top: 1px solid #666;
+    }
+}
 .contact-data{
 	margin-bottom: 40px;
 	padding-left: 0px;
@@ -112,7 +117,7 @@
 }
 .d{
     &-flex{
-        display: flex;
+        display: flex !important;
     }
 }
 .description{
