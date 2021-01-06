@@ -48,7 +48,7 @@ function switcher(targetID,itemRef){
 }
 
 function updateFrm(){
-    $(".contact-form").attr("action","http://losogors.epizy.com/wiadomosc");
+    $(".contact-form").attr("action","wiadomosc.php");
 }
 
 function setCookie(paramA, valueA, durationA) {
@@ -76,6 +76,7 @@ $(document).ready(function(){
     $(".switcher-nav .switcher-nav-item").click(function(){
         switcher($(this).parent().attr("data-target"),$(this).attr("data-rel"));
     });
+    /*
     if(getCookie("rodoAccept")!=="1"){
         var gpdrMsg = "GDPR declaration - this is website demo, so it doesn't store any data.\n";
         gpdrMsg += "All data entered by You in forms on this website are processed only\n";
@@ -87,6 +88,7 @@ $(document).ready(function(){
             setCookie("rodoAccept","1",1);
         }
     }
+    */
     setTimeout(updateFrm,11000);
 });
 

@@ -18,7 +18,7 @@
     </head>
     <body class="bg-black-red">
         <nav class="container-full-w navbar shadow bg-black">
-            <a href="http://losogors.epizy.com" class="nav-logo">
+            <a href="index.html" class="nav-logo">
                 <img src="img/logo.svg" alt="logo">
             </a>
             <div class="menu menu-right">
@@ -29,16 +29,16 @@
                 </div>
                 <div class="menu-full">
                     <ul class="menu-content text-uppercase">
-                        <li><a href="http://losogors.epizy.com/#menu">Menu</a></li>
-                        <li><a href="http://losogors.epizy.com/#about">O nas</a></li>
-                        <li><a href="http://losogors.epizy.com/#join">Dołącz</a></li>
-                        <li><a href="http://losogors.epizy.com/#points">Punkty</a></li>
-                        <li><a href="http://losogors.epizy.com/#contact">Kontakt</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">O nas</a></li>
+                        <li><a href="#join">Dołącz</a></li>
+                        <li><a href="#points">Punkty</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="container-full-w anim-container xs-sm-hidden"></section>
+        <section class="container-full-w anim-container xs-sm-hidden minh-100vh"></section>
         <div class="section-spacer"></div>
         <section class="container-full-w d-flex" id="menu">
             <div class="row my-auto">
@@ -196,7 +196,7 @@
             <div class="row pt-3 d-flex my-auto">
                 <div class="xs-col-8 md-col-6 float-none mx-auto contact-data text-white text-center">
                     <h3 class="font-f2 opacity-8">Kontakt z nami</h3>  
-                    <form class="contact-form font-f1" method="post" action="http://losogors.epizy.com/blad" target="_blank" autocomplete="off">
+                    <form class="contact-form font-f1" method="post" action="blad.php" target="_blank" autocomplete="off">
                         <input type="text" name="fname" class="form-control" placeholder="Imię i Nazwisko" required maxlength="50" onpaste="return false;" pattern="[a-zA-Z' ']+">
                         <input type="email" name="femail" class="form-control" placeholder="Adres e-mail" required maxlength="80" onpaste="return false;">
                         <input type="tel" name="ftel" class="form-control" placeholder="Telefon" required maxlength="15" onpaste="return false;" pattern="[0-9' ''-']+">
@@ -219,7 +219,12 @@
                 </ul>
             </div>
             <div class="row">
-                <p class="text-center text-uppercase font-f3">Copyright <span class="font-f1">&copy;</span> 2019</p>
+                <small class="text-center">
+                    Copyright &copy; 2017-2021 Tomasz Pankowski 
+                    <a href="privacy.html" class="text-white text-link">
+                        Polityka prywatności
+                    </a>
+                </small>
             </div>
         </footer>        
         <script src="js/main.min.js"></script>
