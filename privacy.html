@@ -4,15 +4,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="description" content="Los Ogros to połączenie najlepszych burgerów oraz rock'n'rollowej 
+            pasji. Tutaj dobrze zjesz i posłuchasz najlepszych rock'n'rollowych kawałków. Odwiedź nas już 
+            dziś i spróbuj jak smakuje idealnie wysmażone, soczyste mięso, ser oraz delikatne maślane pieczywo">
+        <meta name="keywords" content="Los Ogros,Burgery">
         <!--[if lt IE 9]>
             <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.0/respond.min.js"></script>
         <![endif]-->
         <link rel="icon" href="img/favicon.png">
         <link type="text/css" rel="stylesheet" href="css/styles.min.css">
-        <title>Los Ogros | Najlepsze burgery w mieście</title>
+        <title>Los Ogros | Polityka prywatności</title>
     </head>
     <body class="bg-black-red">
         <nav class="container-full-w navbar shadow bg-black">
@@ -36,47 +38,39 @@
                 </div>
             </div>
         </nav>
-        <section class="container-full-w text-white  d-flex">
-            <div class="row d-flex my-auto">
-                <div class="xs-col-6 float-none mx-auto">
-                    <h3 class="font-f3 text-center">Potwierdzenie</h3>
-                    <dl>
-                        <dt class="font-f3">Imię</dt>
-                        <dd class="font-f1 p-2">
-                            <?php
-                            if(isset($_POST['fname'])){
-                                echo htmlspecialchars($_POST['fname']);
-                            }
-                            ?>
-                        </dd>
-                        <dt class="font-f3">Email</dt>
-                        <dd class="font-f1 p-2">
-                            <?php
-                            if(isset($_POST['femail'])){
-                                echo htmlspecialchars($_POST['femail']);
-                            }
-                            ?>
-                        </dd>
-                        <dt class="font-f3">Telefon</dt>
-                        <dd class="font-f1 p-2">
-                            <?php
-                            if(isset($_POST['ftel'])){
-                                echo htmlspecialchars($_POST['ftel']);
-                            }
-                            ?>
-                        </dd>
-                        <dt class="font-f3">Wiadomość</dt>
-                        <dd class="font-f1 p-2">
-                            <?php
-                            if(isset($_POST['fmessage'])){
-                                echo htmlspecialchars($_POST['fmessage']);
-                            }
-                            ?>
-                        </dd>
-                    </dl>
+        <section class="container-full-w pt-3 pb-3 opacity-8 minh-100vh d-flex align-items-center">
+            <div class="row text-white d-flex pt-3 pb-3 ">
+                <div class="xs-col-10 md-col-6 text-center float-none mx-auto">
+                    <h4 class="font-f2">Privacy Policy</h4>
+                    <p class="font-f1 m-2">
+                        This website is a demo version of real website, It doesn't collect and process, 
+                        in long term meaning (longer than needed for website operation during visitor's 
+                        presence), any user (visitor) data. All information collected during visitor's 
+                        presence on this website is used only for technical purposes, required for 
+                        correct operation of website or demonstration purposes related to technical 
+                        mechanisms and presentation of its operation.
+                    </p>
+                    <p class="font-f1 m-2">
+                        All data stored in cookies is directly related to saved visitor's settings 
+                        for website's mechanisms, and can be managed by visitor with functionality 
+                        provided by visitor's web browser - in order to get more information visitor 
+                        should check web browser's manual.
+                    </p>
+                    <p class="font-f1 m-2">
+                        However this website may contain attached third-party addons (like for example: 
+                        scripts added by hosting services provider) which may collect visitors data for 
+                        security and technical purposes. In order to know more about them, visitor should 
+                        visit hosting provider's website and check privacy policy related to collected 
+                        data.
+                    </p>
+                    <p class="font-f1 m-2">
+                        All materials used for creation of this website were acquired from legal resources. 
+                        Any convergences and similarities with any materials presented on other websites 
+                        or resources are accidental.
+                    </p>
                 </div>
             </div>
-        </section>        
+        </section>
         <footer class="container-full-w text-white text-center pt-2">
             <div class="row">
                 <ul class="list-inline icon-list">
@@ -93,8 +87,8 @@
                     </a>
                 </small>
             </div>
-        </footer>
-       <script src="js/main.min.js"></script>
+        </footer>        
+        <script src="js/main.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh1xIfMS6UqeltTwp9dL-LtRcRb6J9ao8&callback=pointsMap"></script>
     </body>
 </html>

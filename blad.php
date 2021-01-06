@@ -56,7 +56,12 @@
                 </ul>
             </div>
             <div class="row">
-                <p class="text-center text-uppercase font-f3">Copyright <span class="font-f1">&copy;</span> 2019</p>
+                <small class="text-center">
+                    Copyright &copy; 2017-2021 Tomasz Pankowski 
+                    <a href="privacy.html" class="text-white text-link">
+                        Polityka prywatności
+                    </a>
+                </small>
             </div>
         </footer>
         <script src="js/main.min.js"></script>

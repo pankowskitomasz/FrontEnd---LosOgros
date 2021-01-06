@@ -20,6 +20,13 @@
 	min-height:$map-height;
 	filter: grayscale(255);
 }
+.align{
+    &-items{
+        &-center{
+            align-items: center;
+        }
+    }
+}
 .anim-container{
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
@@ -239,6 +246,11 @@
     }
     display: inline-block;
 }
+.minh{
+    &-100vh{
+        min-height: 100vh;
+    }
+}
 .nav{
     &bar{
         height: $navbar-height;
@@ -293,6 +305,14 @@
 .text{
     &-center{
         text-align: center;
+    }
+    &-link{
+        &:hover{
+            text-decoration: underline !important;
+        }
+        &:link{
+            text-decoration: none;
+        }
     }
     &-uppercase{
         text-transform: uppercase;
